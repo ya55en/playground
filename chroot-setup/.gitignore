@@ -1,0 +1,7 @@
+# .gitignore for ma'shmallow-0 cheoot-setup sub-project
+
+build/
+downloads/
+
+.env
+sync-mash
