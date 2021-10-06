@@ -19,4 +19,5 @@ jobs:
       - uses: actions/checkout@v2
       - run: sudo apt-get update
       - run: sudo apt-get install -y debootstrap make curl
+      - run: cp -p chroot-setup/.env.sample chroot-setup/.env
       - run: cd chroot-setup && make build/focal-headless.tgz
